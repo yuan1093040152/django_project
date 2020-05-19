@@ -33,7 +33,7 @@ def DjangTest(request):
 
             info = models.XGFY_SQL.objects.raw('SELECT * FROM xgfy_xgfy_sql WHERE nationality IN (%s) AND country IN ("%s")'%(gb1,gj))
 
-        print(gj)
+        print('gj=',gj)
 
         # info = models.XGFY_SQL.objects.filter(nationality=gb,country=gj)
         print(info)
