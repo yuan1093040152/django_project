@@ -37,4 +37,4 @@ def DjangTest(request):
 
         # info = models.XGFY_SQL.objects.filter(nationality=gb,country=gj)
         print(info)
-        return render(request,'XGFY/DjangoTest01.html',{'haha':info})
+        return render(request,'XGFY/DjangoTest02.html',{'haha':info})
