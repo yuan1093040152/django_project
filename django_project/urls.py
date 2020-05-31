@@ -20,4 +20,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     # include把主目录的urls指向XGFY文件下的urls
     path('XGFY/', include('XGFY.urls')),
+    path('Login/', include('Login.urls')),
 ]
