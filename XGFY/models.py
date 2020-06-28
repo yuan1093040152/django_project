@@ -11,3 +11,4 @@ class XGFY_SQL(models.Model):
     Cure = models.IntegerField()         # 治愈病例
     death = models.IntegerField()        # 死亡病例
     creat_time = models.DateField(auto_now=False)   #创建时间，可覆盖
+
